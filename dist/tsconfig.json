@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "./dist"  // Output folder for compiled JavaScript
+  },
+  "include": ["src/**/*"],  // Includes all TypeScript files in the 'src' folder
+  "exclude": ["node_modules", "dist"]  // Exclude node_modules and dist
+}
